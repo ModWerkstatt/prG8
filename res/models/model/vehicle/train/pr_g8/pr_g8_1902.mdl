@@ -29,11 +29,6 @@ return {
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 							{
-								materials = { "vehicle/train/pr_g8/pr_g8_0/rumpf_1902.mtl", },
-								mesh = "vehicle/train/pr_g8/pr_g8_0/fuhrung_lod0.msh",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-							},
-							{
 								materials = { "vehicle/train/pr_g8/pr_g8_0/glas.mtl", },
 								mesh = "vehicle/train/pr_g8/pr_g8_0/g8_scheiben_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -49,8 +44,13 @@ return {
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 							{
+								materials = { "vehicle/train/pr_g8/pr_g8_0/beweglich.mtl", },
+								mesh = "vehicle/train/pr_g8/pr_g8_0/fuhrung_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/dampf_rechts.ani",
 										},
@@ -63,7 +63,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/koppel_rechts.ani",
 										},
@@ -76,7 +76,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/schub_rechts.ani",
 										},
@@ -89,7 +89,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/schwinge_rechts.ani",
 										},
@@ -102,7 +102,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/steuer_rechts.ani",
 										},
@@ -115,7 +115,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/t_schieber_rechts.ani",
 										},
@@ -128,7 +128,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/treib1_rechts.ani",
 										},
@@ -141,7 +141,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/treib2_rechts.ani",
 										},
@@ -154,7 +154,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/treib3_rechts.ani",
 										},
@@ -167,7 +167,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/treib4_rechts.ani",
 										},
@@ -180,7 +180,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/dampf_rechts.ani",
 										},
@@ -193,7 +193,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/koppel_rechts.ani",
 										},
@@ -206,7 +206,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/schub_rechts.ani",
 										},
@@ -219,7 +219,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/schwinge_rechts.ani",
 										},
@@ -232,7 +232,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/steuer_rechts.ani",
 										},
@@ -245,7 +245,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/t_schieber_rechts.ani",
 										},
@@ -258,7 +258,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/treib1_rechts.ani",
 										},
@@ -271,7 +271,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/treib2_rechts.ani",
 										},
@@ -284,7 +284,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/treib3_rechts.ani",
 										},
@@ -297,7 +297,7 @@ return {
 							},
 							{
 								animations = {
-									drive = {
+									wheels = {
 										params = {
 											id = "vehicle/train/pr_g8/treib4_rechts.ani",
 										},
