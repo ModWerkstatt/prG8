@@ -23,6 +23,12 @@ return {
 								name = "Rumpf",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
+                            {
+								materials = { "vehicle/train/pr_g8/pr_g8_0/innen.mtl", },
+								mesh = "vehicle/train/pr_g8/pr_g8_0/g8_innen_lod0.msh",
+								name = "Rumpf",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
 							{
 								materials = { "vehicle/train/pr_g8/pr_g8_0/rumpf_1902.mtl", },
 								mesh = "vehicle/train/pr_g8/pr_g8_0/fuhrung_lod0.msh",
