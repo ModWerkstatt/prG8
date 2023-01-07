@@ -448,22 +448,22 @@ return {
 		railVehicle = {
 			configs = {
 				{
-					axles = { 	"vehicle/train/pr_g8/pr_g8_0/tender_4t16_rad_lod0.msh", 
+					axles = { 	"vehicle/train/pr_g8/pr_g8_0/tender_3t16_rad_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad1_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad2_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad3_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad4_lod0.msh", },
 					backBackwardParts = { 33, },
-					backForwardParts = { 45, },
+					backForwardParts = { 39, },
 					blinkingLights0 = { },
 					blinkingLights1 = { },
-					frontBackwardParts = { 46, },
+					frontBackwardParts = { 40, },
 					frontForwardParts = { 32, },
 					innerBackwardParts = { },
 					innerForwardParts = { },
 				},
 				{
-					axles = { 	"vehicle/train/pr_g8/pr_g8_0/tender_4t16_rad_lod0.msh", 
+					axles = { 	"vehicle/train/pr_g8/pr_g8_0/tender_3t16_rad_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad1_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad2_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad3_lod0.msh", 
@@ -478,7 +478,7 @@ return {
 					innerForwardParts = { },
 				},
 				{
-					axles = { 	"vehicle/train/pr_g8/pr_g8_0/tender_4t16_rad_lod0.msh", 
+					axles = { 	"vehicle/train/pr_g8/pr_g8_0/tender_3t16_rad_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad1_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad2_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad3_lod0.msh", 
