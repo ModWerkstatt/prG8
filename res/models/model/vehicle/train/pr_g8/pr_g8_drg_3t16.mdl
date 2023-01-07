@@ -448,7 +448,7 @@ return {
 		railVehicle = {
 			configs = {
 				{
-					axles = { 	"vehicle/train/pr_g8/pr_g8_0/tender_3t16_rad_lod0.msh", 
+					axles = { 	"vehicle/train/pr_g8/pr_g8_0/DRG/tender_3t16_rad_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad1_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad2_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad3_lod0.msh", 
@@ -463,7 +463,7 @@ return {
 					innerForwardParts = { },
 				},
 				{
-					axles = { 	"vehicle/train/pr_g8/pr_g8_0/tender_3t16_rad_lod0.msh", 
+					axles = { 	"vehicle/train/pr_g8/pr_g8_0/DRG/tender_3t16_rad_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad1_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad2_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad3_lod0.msh", 
@@ -478,7 +478,7 @@ return {
 					innerForwardParts = { },
 				},
 				{
-					axles = { 	"vehicle/train/pr_g8/pr_g8_0/tender_3t16_rad_lod0.msh", 
+					axles = { 	"vehicle/train/pr_g8/pr_g8_0/DRG/tender_3t16_rad_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad1_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad2_lod0.msh", 
 								"vehicle/train/pr_g8/pr_g8_0/rad3_lod0.msh", 
@@ -495,7 +495,7 @@ return {
 			},
 			engines = {
 				{
-					power = 809
+					power = 809,
 					tractiveEffort = 175,
 					type = "STEAM",
 				},

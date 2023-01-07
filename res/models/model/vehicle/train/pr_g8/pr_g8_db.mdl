@@ -330,12 +330,12 @@ return {
 							},
 							{
 								materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-								mesh = "vehicle/train/pr_g8/lok_licht_weiss_2_lod0.msh",
+								mesh = "vehicle/train/pr_g8/lok_licht_db_weiss_3_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 							{
 								materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-								mesh = "vehicle/train/pr_g8/lok_licht_rot_lod0.msh",
+								mesh = "vehicle/train/pr_g8/lok_licht_db_rot_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 						},
@@ -367,12 +367,12 @@ return {
 							},
 							{
 								materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-								mesh = "vehicle/train/pr_g8/tender_3t16_licht_rot_lod0.msh",
+								mesh = "vehicle/train/pr_g8/tender_3t16_licht_db_rot_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 							{
 								materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-								mesh = "vehicle/train/pr_g8/tender_3t16_licht_weiss_2_lod0.msh",
+								mesh = "vehicle/train/pr_g8/tender_3t16_licht_db_weiss_3_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 						},
@@ -495,7 +495,7 @@ return {
 			},
 			engines = {
 				{
-					power = 809
+					power = 809,
 					tractiveEffort = 175,
 					type = "STEAM",
 				},

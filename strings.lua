@@ -4,12 +4,22 @@ return {
 			["mod_name"] = "Preußische G8 / BR 55.16-22",
 			["mod_desc"] = "todo",
 
-            ["pr_g8_menu"] = "Preußische G8 / BR 55.16-22",
+            ["pr_g8_menu"] = "Preußische G8 / BR 55",
 			["pr_g8_kpev_name"] = "Preußische G8 KPEV (1902)",
 			["pr_g8_kpev_desc"] = "todo",
 			["pr_g8_drg_4t16_name"] = "Preußische G8 DRG - Tender 4T16 (1923)",
 			["pr_g8_drg_3t16_name"] = "Preußische G8 DRG - Tender 3T16 (1923)",
 			["pr_g8_drg_desc"] = "todo",
+            ["pr_g8_db_name"] = "Preußische G8 DB (1947)",
+			["pr_g8_db_desc"] = "todo",
+
+            ["pr_g81_kpev_name"] = "Preußische G8.1 KPEV (1914)",
+			["pr_g81_kpev_desc"] = "todo",
+			["pr_g81_drg_4t16_name"] = "Pr. G8.1 DRG - Tender 4T16 (1923)",
+			["pr_g8_drg_3t16_name"] = "Pr. G8.1 DRG - Tender 3T16 (1923)",
+			["pr_g81_drg_desc"] = "todo",
+            ["pr_g8_db1_name"] = "Pr. G8.1 DB (1947)",
+			["pr_g8_db1_desc"] = "todo",
 
 		},
 		en = {
