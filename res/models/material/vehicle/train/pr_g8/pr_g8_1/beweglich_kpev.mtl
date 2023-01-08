@@ -6,11 +6,11 @@ return {
 			fadeOutStartDist = 10000,
 		},
 		map_albedo = {
-			fileName = "models/vehicle/train/pr_g8/pr_g8_0/beweglich_kpev_albedo.dds",
+			fileName = "models/vehicle/train/pr_g8/pr_g8_1/beweglich_kpev_albedo.dds",
 			type = "TWOD",
 		},
 		map_cblend_dirt_rust = {
-			fileName = "models/vehicle/train/pr_g8/pr_g8_0/beweglich_cblend_dirt_rust.dds",
+			fileName = "models/vehicle/train/pr_g8/pr_g8_1/beweglich_kpev_cblend_dirt_rust.dds",
 			type = "TWOD",
 		},
 		map_dirt = {
@@ -23,11 +23,11 @@ return {
 			type = "TWOD",
 		},
 		map_metal_gloss_ao = {
-			fileName = "models/vehicle/train/pr_g8/pr_g8_0/beweglich_kpev_metal_gloss_ao.dds",
+			fileName = "models/vehicle/train/pr_g8/pr_g8_1/beweglich_kpev_metal_gloss_ao.dds",
 			type = "TWOD",
 		},
 		map_normal = {
-			fileName = "models/vehicle/train/pr_g8/pr_g8_0/beweglich_kpev_normal.dds",
+			fileName = "models/vehicle/train/pr_g8/pr_g8_1/beweglich_kpev_normal.dds",
 			redGreen = true,
 			type = "TWOD",
 		},
