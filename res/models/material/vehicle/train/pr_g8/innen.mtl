@@ -5,36 +5,48 @@ return {
 			fadeOutEndDist = 20000,
 			fadeOutStartDist = 10000,
 		},
+		dirt_rust = {
+			dirtColor = { 25/255, 20/255, 19/255, },
+			dirtOpacity = 10/100,
+			dirtScale = 100/12.5,
+			rustColor = { 62/255, 44/255, 36/255, },
+			rustOpacity = 50/100,
+			rustScale = 100/34.77,
+		},
 		map_albedo = {
-			compressionAllowed = true,
-			fileName = "models/vehicle/train/pr_g8/pr_g8_0/innen_albedo.dds",
-			magFilter = "LINEAR",
-			minFilter = "LINEAR_MIPMAP_LINEAR",
-			mipmapAlphaScale = 0,
+			fileName = "models/vehicle/train/pr_g8/innen_albedo.dds",
 			type = "TWOD",
-			wrapS = "CLAMP_TO_EDGE",
-			wrapT = "CLAMP_TO_EDGE",
 		},
-		map_metal_gloss_ao = {
-			compressionAllowed = true,
-			fileName = "models/vehicle/train/pr_g8/pr_g8_0/innen_metal_gloss_ao.dds",
-			magFilter = "LINEAR",
-			minFilter = "LINEAR_MIPMAP_LINEAR",
-			mipmapAlphaScale = 0,
+		map_cblend_dirt_rust = {
+			fileName = "models/vehicle/train/pr_g8/innen_cblend_dirt_rust.dds",
 			type = "TWOD",
-			wrapS = "CLAMP_TO_EDGE",
-			wrapT = "CLAMP_TO_EDGE",
 		},
-		map_normal = {
-			compressionAllowed = true,
-			fileName = "models/vehicle/train/pr_g8/pr_g8_0/innen_normal.dds",
-			magFilter = "LINEAR",
-			minFilter = "LINEAR_MIPMAP_LINEAR",
-			mipmapAlphaScale = 0,
+		map_dirt = {
+			fileName = "models/vehicle/dirt_albedo.dds",
+			type = "TWOD",
+		},
+		map_dirt_normal = {
+			fileName = "models/vehicle/dirt_normal.dds",
 			redGreen = true,
 			type = "TWOD",
-			wrapS = "CLAMP_TO_EDGE",
-			wrapT = "CLAMP_TO_EDGE",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/train/pr_g8/innen_metal_gloss_ao.dds",
+			type = "TWOD",
+		},
+		map_normal = {
+			fileName = "models/vehicle/train/pr_g8/innen_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_rust = {
+			fileName = "models/vehicle/rust_albedo.dds",
+			type = "TWOD",
+		},
+		map_rust_normal = {
+			fileName = "models/vehicle/rust_normal.dds",
+			redGreen = true,
+			type = "TWOD",
 		},
 		polygon_offset = {
 			factor = 0,
@@ -44,6 +56,6 @@ return {
 			twoSided = false,
 		},
 	},
-	type = "PHYSICAL_NRML_MAP",
+	type = "PHYSICAL_NRML_MAP_CBLEND_DIRT",
 }
 end

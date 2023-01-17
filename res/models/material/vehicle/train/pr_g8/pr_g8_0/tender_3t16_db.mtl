@@ -5,12 +5,20 @@ return {
 			fadeOutEndDist = 20000,
 			fadeOutStartDist = 10000,
 		},
+		dirt_rust = {
+			dirtColor = { 25/255, 20/255, 19/255, },
+			dirtOpacity = 10/100,
+			dirtScale = 100/12.5,
+			rustColor = { 62/255, 44/255, 36/255, },
+			rustOpacity = 50/100,
+			rustScale = 100/34.77,
+		},
 		map_albedo = {
 			fileName = "models/vehicle/train/pr_g8/pr_g8_0/tender_3t16_db_albedo.dds",
 			type = "TWOD",
 		},
 		map_cblend_dirt_rust = {
-			fileName = "models/vehicle/train/pr_g8/pr_g8_0/tender_3t16_drg_cblend_dirt_rust.dds",
+			fileName = "models/vehicle/train/pr_g8/pr_g8_1/tender_3t16_cblend_dirt_rust.dds",
 			type = "TWOD",
 		},
 		map_dirt = {

@@ -5,6 +5,14 @@ return {
 			fadeOutEndDist = 20000,
 			fadeOutStartDist = 10000,
 		},
+		dirt_rust = {
+			dirtColor = { 55/255, 40/255, 29/255, },
+			dirtOpacity = 10/100,
+			dirtScale = 100/12.5,
+			rustColor = { 62/255, 44/255, 36/255, },
+			rustOpacity = 50/100,
+			rustScale = 100/34.77,
+		},
 		map_albedo = {
 			fileName = "models/vehicle/train/pr_g8/pr_g8_1/beweglich_drg_albedo.dds",
 			type = "TWOD",
