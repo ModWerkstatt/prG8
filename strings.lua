@@ -3,7 +3,7 @@ return {
 		de = {
 
 			["mod_name"] = "Preußische G 8 / G 8.1 / BR 55 / BR 56",
-			["mod_desc"] = "Die Lokomotiven der Gattung G 8 waren vierfach gekuppelte, laufachslose Güterzuglokomotiven der Preußischen Staatseisenbahnen. Es gab zwei Varianten, einmal die ab 1902 gebaute G 8 und die ab 1913 gebaute \"verstärkte G 8\", später als G 8.1 bezeichnet. Letztere war mit mehr als 5.000 Exemplaren die meistgebaute Länderbahnlokomotive überhaupt.",
+			["mod_desc"] = "Die Lokomotiven der Gattung G 8 waren vierfach gekuppelte, laufachslose Güterzuglokomotiven der Preußischen Staatseisenbahnen. Es gab zwei Varianten, einmal die ab 1902 gebaute G 8 und die ab 1913 gebaute \"verstärkte G 8\", später als G 8.1 bezeichnet. Letztere war mit mehr als 5.000 Exemplaren die meistgebaute Länderbahnlokomotive überhaupt.\n\nVerfügbarkeit: ab 1902 / ab 1914 bis 1972\nHöchstgeschwindikeit: 55 km/h / 70 km/h\nZugkraft: 809 kW / 927 kW\nAnfahrzugkraft: 175 kN / 194 kN",
 
             ["pr_g8_menu"] = "Preußische G 8 / BR 55/055/056",
 			["pr_g8_kpev_name"] = "KPEV pr. G 8 (1902)",
@@ -44,7 +44,7 @@ return {
 		en = {
 
 			["mod_name"] = "Prussian G 8 / G 8.1 / Class 55 / Class 56",
-			["mod_desc"] = "The class G 8 locomotives were four-coupled, running-axle freight locomotives of the Prussian State Railways. There were two variants, the G 8 built from 1902 and the \"reinforced G 8\" built from 1913, later called G 8.1. With more than 5,000 units, the latter was the most frequently built state railway locomotive ever.",
+			["mod_desc"] = "The class G 8 locomotives were four-coupled, running-axle freight locomotives of the Prussian State Railways. There were two variants, the G 8 built from 1902 and the \"reinforced G 8\" built from 1913, later called G 8.1. With more than 5,000 units, the latter was the most frequently built state railway locomotive ever.\n\nAvailability: from 1902 / from 1914 to 1972\nMaximum speed: 55 km/h / 70 km/h\nPower: 809 kW / 927 kW\nTractive effort: 175 kN / 194 kN",
 
 			["pr_g8_menu"] = "Prussian G 8 / Class 55/055/056",
 			["pr_g8_kpev_name"] = "KPEV pr. G 8 (1902)",
