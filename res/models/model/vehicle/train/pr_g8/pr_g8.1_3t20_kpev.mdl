@@ -328,6 +328,11 @@ return {
 								mesh = "vehicle/train/pr_g8/licht/lok_licht_weiss_2_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
+							{
+								materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+								mesh = "vehicle/train/pr_g8/licht/lok_licht_rot_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
 						},
 						name = "Preußsiche G8 Lok",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -850,7 +855,7 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1913,
+			yearFrom = 1921,
 			yearTo = 1923,
 		},
         cameraConfig = {
@@ -913,12 +918,12 @@ return {
 								"vehicle/train/pr_g8/rad2_lod0.msh", 
 								"vehicle/train/pr_g8/rad3_lod0.msh", 
 								"vehicle/train/pr_g8/rad4_lod0.msh", },
-					backBackwardParts = { 31, },
-					backForwardParts = { 37, },
+					backBackwardParts = { 32, },
+					backForwardParts = { 38, },
 					blinkingLights0 = { },
 					blinkingLights1 = { },
-					frontBackwardParts = { 38, },
-					frontForwardParts = { 30, },
+					frontBackwardParts = { 39, },
+					frontForwardParts = { 31, },
 					innerBackwardParts = { },
 					innerForwardParts = { },
 				},
