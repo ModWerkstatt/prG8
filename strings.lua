@@ -40,6 +40,11 @@ return {
             ["pr_g81_stroomann_name"] = "KPEV, pr 8.1 Bauart Stroomann (1914)",
             ["pr_g81_stroomann_desc"] = "Für die Direktion Magdeburg wurden drei Maschinen umgebaut mit Stroomann-Kessel. Das war eine Kesselbauart mit einem Flammrohr-Wasserrohr-Kessel: An Stelle der Feuerbüchse war ein Wellrohr mit Innenfeuerung, und der Langkessel bestand aus einem Bündel mit wassergefüllten, rauchumspülten Rohren, die an den Enden durch Wasserkammern verbunden waren. Der Stroomann-Kessel konnte sich nicht durchsetzen.",
 
+            ["pr_g8 Asset Set"] = "Preussische G 8 und G 8.1",
+            ["Statische pr_g8 Lokomotiven."] = "Assets von den preussischen Güterzugloks.",
+            ["pr_g8_assets"] = "preussiche Güterzuglok Assets",
+            ["pr_g8 als Asset"] = "Preussische Güterzugloks G 8 und G 8.1 als Asset",
+
 		},
 		en = {
 
@@ -81,6 +86,10 @@ return {
             ["pr_g81_stroomann_name"] = "KPEV, pr 8.1 type Stroomann (1914)",
             ["pr_g81_stroomann_desc"] = "Three machines were rebuilt with Stroomann boilers for the Magdeburg directorate. This was a boiler design with a flame tube-water tube boiler: instead of the firebox there was a corrugated tube with internal firing, and the long boiler consisted of a bundle of water-filled, smoke-flushed tubes connected at the ends by water chambers. The Stroomann boiler did not catch on.",
 
+            ["pr_g8 Asset Set"] = "Prussian G 8 and G 8.1",
+            ["Statische pr_g8 Lokomotiven."] = "Assets of the prussian freight train engines.",
+            ["pr_g8_assets"] = "Prussian freight train engines assets",
+            ["pr_g8 als Asset"] = "Prussian freight train engine G 8 as asset",
 
 			},
 	}
