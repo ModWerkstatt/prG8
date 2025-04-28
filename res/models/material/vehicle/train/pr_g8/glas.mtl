@@ -8,12 +8,10 @@ return {
 		},
 		map_albedo_opacity = {
 			fileName = "models/vehicle/train/pr_g8/pr_g8_0/glas_albedo_opacity.dds",
-			scaleDownAllowed = false,
 			type = "TWOD",
 		},
 		map_metal_gloss_ao = {
 			fileName = "models/vehicle/train/pr_g8/pr_g8_0/glas_metal_gloss_ao.dds",
-			scaleDownAllowed = false,
 			type = "TWOD",
 		},
 		polygon_offset = {
