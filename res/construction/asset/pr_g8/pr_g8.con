@@ -1,11 +1,14 @@
 function data()
-return { 
+return {
 	type = "ASSET_TRACK",
 	description = {
-		name = _("pr_g8 Asset Set"),			
+		name = _("pr_g8 Asset Set"),
 		description = _("Statische pr_g8 Lokomotiven.")
 	},
-	availability = {},
+	availability = {
+        yearFrom = 1913,
+        yearTo = 1972,
+    },
 	buildMode = "MULTI",
 	categories = { "trains" },
 	order = 212210301,
@@ -24,67 +27,67 @@ return {
 		local result = { }
 		result.models = {  }
 		local height = 0
-		
+
 		if params.pr_g8 == 0 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8.1_3t16_db1_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 1 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8.1_3t16_db2_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 2 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8.1_3t16_drg_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 3 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8.1_3t16_kpev_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 4 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8.1_3t20_db1_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 5 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8.1_3t20_db2_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 6 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8.1_3t20_drg_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 7 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8.1_3t20_kpev_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 8 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8.1_achse_db_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 9 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8.1_achse_drg_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 10 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8.1_stroomann_kpev_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 11 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8_db_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 12 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8_drg_3t16_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 13 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8_drg_4t16_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		if params.pr_g8 == 14 then
 		result.models[#result.models+1] = {id = "asset/train/pr_g8/pr_g8_kpev_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
 		end
-		
+
 		result.terrainAlignmentLists = { {
 			type = "EQUAL",
 			faces =  { }
